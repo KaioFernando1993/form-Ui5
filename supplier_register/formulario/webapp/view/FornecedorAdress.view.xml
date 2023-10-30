@@ -1,0 +1,109 @@
+<mvc:View controllerName="formulario.controller.Fornecedor"
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.uxap"
+xmlns:layout="sap.ui.layout"
+xmlns:m="sap.m"
+xmlns:forms="sap.ui.layout.form"
+xmlns:personal="sap.uxap.sample.ObjectPageFormLayout.controller.blocks"
+xmlns:employment="sap.uxap.sample.ObjectPageFormLayout.controller.blocks"
+xmlns:blockcolor="sap.uxap.sample.ObjectPageFormLayout.controller.blocks"
+height="100%">
+
+<forms:Form width="100%">
+		<forms:layout>
+			<forms:ColumnLayout/>
+		</forms:layout>
+		<forms:formContainers>
+
+			<forms:FormContainer id="addressInfo" title="Addresses">
+				<forms:formElements>
+
+					<forms:FormElement label="Rua:">
+						<forms:fields>
+                        <Input value="PRACA 1 DE MAIO" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+						</forms:fields>
+					</forms:FormElement>
+
+					<forms:FormElement label="Bairro:">
+						<forms:fields>
+                        <Input value="CENTRO" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+
+						</forms:fields>
+					</forms:FormElement>
+
+					<forms:FormElement label="Cidade">
+						<forms:fields>
+                        <Input value="CENTRO" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+
+						</forms:fields>
+					</forms:FormElement>
+
+					<forms:FormElement label="Telefone">
+						<forms:fields>
+                            <Input value="CENTRO" type="Number" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+
+						</forms:fields>
+					</forms:FormElement>
+
+					<forms:FormElement label="Fax">
+						<forms:fields>
+                        <Input value="CENTRO" type="Number" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+
+						</forms:fields>
+					</forms:FormElement>
+
+					<forms:FormElement label="Celular">
+						<forms:fields>
+                        <Input value="CENTRO" type="Number" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+
+						</forms:fields>
+					</forms:FormElement>
+
+					<forms:FormElement label="E-mail">
+						<forms:fields>
+                        <Input value="CENTRO" type="Email" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+						</forms:fields>
+					</forms:FormElement>
+
+				</forms:formElements>
+			</forms:FormContainer>
+
+
+			<forms:FormContainer id="socialInfo" title="Social Accounts">
+				<forms:formElements> 
+                    <forms:FormElement label="N">
+						<forms:fields>
+                        <Input value="CENTRO" type="Number" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+						</forms:fields>
+					</forms:FormElement>
+
+                    <forms:FormElement label="CEP">
+						<forms:fields>
+                        <Input value="CENTRO" type="Number" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+						</forms:fields>
+					</forms:FormElement>
+
+                    <forms:FormElement label="Região">
+						<forms:fields>
+                        <Input value="CENTRO" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+						</forms:fields>
+					</forms:FormElement>
+
+                    <forms:FormElement label="Extensão">
+						<forms:fields>
+                        <Input value="CENTRO" type="Text" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+						</forms:fields>
+					</forms:FormElement>
+
+                    <forms:FormElement label="Number">
+						<forms:fields>
+                        <Input value="CENTRO" type="Email" showValueHelp="false" enabled="true" visible="true" width="auto" valueHelpOnly="false" required="false" valueStateText="Invalid entry" maxLength="0"/>
+						</forms:fields>
+					</forms:FormElement>
+            
+				</forms:formElements>
+			</forms:FormContainer>
+		</forms:formContainers>
+	</forms:Form>
+    
+</mvc:View>
