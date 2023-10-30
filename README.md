@@ -7,8 +7,6 @@ Este é um formulário usando o framework UI5 (SAP UI5) com o padrão MVC (Model
 - Conhecimento básico do framework SAP UI5.
 - Ambiente de desenvolvimento UI5 configurado e funcional.
 
-## Passos para Criar a Aplicação
-
 ##Estrutura do Projeto
 
 1. Crie um novo projeto UI5 ou utilize um existente. Certifique-se de que a estrutura de diretórios esteja configurada corretamente.
